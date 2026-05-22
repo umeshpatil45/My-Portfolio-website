@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Umesh Patil - Data Science Student, AI Enthusiast & Web Developer Portfolio">
+    <title>Umesh Patil | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Animated Orbs -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-bar"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="header glass" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Umesh Patil<span class="highlight">.</span></a>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <h3 class="hero-greeting">Welcome to my universe</h3>
+                    <h1 class="hero-title">Hi, I'm <span class="highlight text-glow">Umesh Patil</span></h1>
+                    <h2 class="hero-subtitle">I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="hero-description">Transforming data into actionable insights and building innovative
+                        AI-driven solutions. Exploring the intersection of Data Science and Web Development.</p>
+
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="https://drive.google.com/file/d/1Saw4f4AQcqPaDw7zcRKEJ7Rq9zZLv0Sb/view?usp=sharing" class="btn btn-outline">Download Resume <i class="fas fa-download"></i></a>
+                        <a href="#contact" class="btn btn-glass">Contact Me</a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/umesh-patil-2b0653327/" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/umeshpatil45" aria-label="GitHub" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/theumeshpatil09?utm_source=qr&igsh=NDdseWtzNGl0M3Zm" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:umeshpatil@gmail.com" aria-label="Gmail" class="social-icon"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper slide-in-right">
+                    <div class="glowing-border">
+                        <div class="profile-image">
+                            <!-- Placeholder for Profile Image -->
+                            <img  src="/img/DSC_0691.JPG" 
+                                alt="Umesh Patil">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                    <p class="section-subtitle">Passionate about Web Development,Data Analytics, AI, and Data Science
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card glass slide-in-left">
+                        <i class="fas fa-user-astronaut about-icon"></i>
+                        <h3>Who I Am</h3>
+                        <p>I am a passionate Data Science and AI enthusiast who loves building smart and creative digital solutions. I enjoy working on machine learning, web development, and data analysis projects while continuously learning new technologies.</p>
+                    </div>
+
+                    <div class="about-card glass fade-in">
+                        <i class="fas fa-graduation-cap about-icon"></i>
+                        <h3>Education</h3>
+                        <p>Pursuing Bachelor’s degree in Computer Engineering with focus on programming, web development, and data analysis. Developing practical skills through projects, internships, and technical training.</p>
+                    </div>
+
+                    <div class="about-card glass slide-in-right">
+                        <i class="fas fa-rocket about-icon"></i>
+                        <h3>Career Goals</h3>
+                        <p>My goal is to leverage AI and Data Science to solve real-world problems. I aspire to work on
+                            innovative products that make a positive impact, while constantly pushing the boundaries of
+                            what's possible with technology.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+                    <p class="section-subtitle">Technologies and tools I work with</p>
+                </div>
+
+                <div class="skills-container">
+                    <!-- Data Science & ML Skills -->
+                    <div class="skills-category glass fade-in">
+                        <h3 class="category-title"><i class="fas fa-brain"></i> Data & AI</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fab fa-python"></i> Python</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" data-progress="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fas fa-database"></i> SQL</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" data-progress="50%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fas fa-robot"></i> Data Science</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" data-progress="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fas fa-chart-pie"></i> Data Visualization</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" data-progress="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fas fa-chart-bar"></i> Power BI</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" data-progress="75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fas fa-table"></i> Pandas & NumPy</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" data-progress="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Dev Skills -->
+                    <div class="skills-category glass fade-in" style="animation-delay: 0.2s;">
+                        <h3 class="category-title"><i class="fas fa-code"></i> Web Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fab fa-html5"></i> HTML</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" data-progress="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fab fa-css3-alt"></i> CSS</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" data-progress="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fab fa-js"></i> JavaScript</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" data-progress="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fas fa-file-excel"></i> Excel</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" data-progress="90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                    <p class="section-subtitle">Some of my recent work</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass fade-in">
+                        <div class="project-img">
+                            <div class="img-overlay"></div>
+                            <span>Data Analysis</span>
+                        </div>
+                        <div class="project-content">
+                            <h3>Data Analysis Dashboard</h3>
+                            <p>A comprehensive interactive dashboard built to visualize complex datasets, uncovering key
+                                metrics and trends for business intelligence.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Power BI</span>
+                                <span class="tech-tag">Pandas</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="btn-small btn-primary"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass fade-in" style="animation-delay: 0.1s;">
+                        <div class="project-img">
+                            <div class="img-overlay"></div>
+                            <span>Web DEV</span>
+                        </div>
+                        <div class="project-content">
+                            <h3>Smart Kumbh – Kumbh Mela Management System</h3>
+                            <p>Developed an advanced web-based platform for managing Kumbh Mela services, crowd monitoring, and pilgrim information using modern frontend technologies. Focused on responsive design, safety management, and real-time communication features</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/umeshpatil45/Smartkumbh" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://github.com/umeshpatil45/Smartkumbh" class="btn-small btn-primary"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass fade-in" style="animation-delay: 0.2s;">
+                        <div class="project-img">
+                            <div class="img-overlay"></div>
+                            <span>Web Dev</span>
+                        </div>
+                        <div class="project-content">
+                            <h3>Premium Portfolio Website</h3>
+                            <p>Developed using HTML, CSS, and JavaScript with a focus on responsive design and interactive user experience.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/umeshpatil45/portfolo.website" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://umeshpatil45.github.io/portfolo.website/" class="btn-small btn-primary"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card glass fade-in" style="animation-delay: 0.3s;">
+                        <div class="project-img">
+                            <div class="img-overlay"></div>
+                            <span>Web Dev</span>
+                        </div>
+                        <div class="project-content">
+                            <h3>SafarX India – Travel & Tourism Website</h3>
+                            <p>Created a responsive tourism website that allows users to explore destinations and holiday packages across India. Developed with a clean UI, smooth navigation, and mobile-friendly design.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/umeshpatil45/SafarX-India" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://umeshpatil45.github.io/SafarX-India/" class="btn-small btn-primary"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Timeline Section -->
+        <section id="experience" class="experience section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">My <span class="highlight">Journey</span></h2>
+                    <p class="section-subtitle">Education and Internship Experience</p>
+                </div>
+                <div class="timeline-item slide-in-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-date">2023 - Present</div>
+                            <h3>Bachelor's in Computer Engineering</h3>
+                            <h4>Savitribai Phule Pune University (SPPU)</h4>
+                            <p>Pursuing a Bachelor’s degree in Computer Engineering with strong knowledge of programming, web development, and data analysis. Gaining practical experience through projects, internships, and technical training programs.</p>
+                        </div>
+                    </div>
+                <div class="timeline">
+                    <div class="timeline-item slide-in-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-date">2026 - Present</div>
+                            <h3>Data Science Intern</h3>
+                            <h4>Cognifyz IT Solutions Pvt. Ltd.</h4>
+                            <p>Assisted in cleaning and analyzing large datasets. Built predictive models and designed
+                                interactive dashboards using Power BI to present insights to stakeholders.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item slide-in-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-date">2026 - Present</div>
+                            <h3>Web Developer Intern</h3>
+                            <h4>Amdox Technologies</h4>
+                            <p>Collaborated with the development team to improve website functionality and design.
+                              Gained practical experience in web development, debugging, and project deployment</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item slide-in-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-date">2024 - 2025</div>
+                            <h3>Foundations in Web Development</h3>
+                            <h4>Self-Taught / Certifications</h4>
+                            <p>Mastered front-end technologies including HTML, CSS, JavaScript, and responsive design
+                                frameworks. Built multiple personal projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">What I <span class="highlight">Do</span></h2>
+                    <p class="section-subtitle">Services I offer</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card glass fade-in">
+                        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Data Analysis</h3>
+                        <p>Transforming raw data into meaningful insights to drive strategic business decisions.</p>
+                    </div>
+                    <div class="service-card glass fade-in" style="animation-delay: 0.1s;">
+                        <div class="service-icon"><i class="fas fa-columns"></i></div>
+                        <h3>Dashboard Design</h3>
+                        <p>Creating interactive and visually appealing dashboards using Power BI and custom web
+                            solutions.</p>
+                    </div>
+                    <div class="service-card glass fade-in" style="animation-delay: 0.2s;">
+                        <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                        <h3>AI Solutions</h3>
+                        <p>Developing machine learning models for predictive analytics, classification, and automation.
+                        </p>
+                    </div>
+                    <div class="service-card glass fade-in" style="animation-delay: 0.3s;">
+                        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Web Development</h3>
+                        <p>Building responsive, modern, and high-performance websites and web applications.</p>
+                    </div>
+                    <div class="service-card glass fade-in" style="animation-delay: 0.4s;">
+                        <div class="service-icon"><i class="fas fa-object-group"></i></div>
+                        <h3>Banner & Graphic Design</h3>
+                        <p>Designing compelling visual assets and professional graphics for digital platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats section">
+            <div class="container">
+                <div class="stats-grid glass fade-in">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="6">0</div>
+                        <div class="stat-text">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="13">0</div>
+                        <div class="stat-text">Certifications</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-text">Skills Mastered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="1">0</div>
+                        <div class="stat-text">Years Internship</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                    <p class="section-subtitle">Let's work together on your next project</p>
+                </div>
+
+                <div class="contact-container">
+                    <div class="contact-info glass slide-in-left">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out to me for any collaborations, freelance work, or just a friendly chat!
+                        </p>
+
+                        <div class="info-items">
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>umeshpatil7337@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Nashik, Maharashtra, India</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <a href="https://www.linkedin.com/in/umesh-patil-2b0653327/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/umeshpatil45" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/theumeshpatil09?utm_source=qr&igsh=NDdseWtzNGl0M3Zm" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:umeshpatil@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper glass slide-in-right">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" required placeholder="Enter Your Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" required placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" rows="5" required
+                                    placeholder="Hello Umesh, I would like to discuss..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                                    class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Umesh Patil. All Rights Reserved.</p>
+            <p class="footer-credit">Designed & Built with Umesh Patil <i class="fas fa-heart"
+                    style="color: var(--accent-red);"></i></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
